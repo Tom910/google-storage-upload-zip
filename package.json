@@ -1,0 +1,17 @@
+{
+    "name": "google-storage-upload-zip",
+    "version": "0.5.0",
+    "bin": {
+        "gsuploadzip": "./bin.js"
+    },
+    "description": "Upload to google Storage S3 files with zip",
+    "main": "./uploadFilesS3.js",
+    "scripts": {},
+    "keywords": [],
+    "author": "a.marchenko <a.marchenko@tinkoff.ru>",
+    "license": "MIT",
+    "dependencies": {
+        "@google-cloud/storage": "^3.1.0",
+        "node-zopfli": "^2.0.3"
+    }
+}
